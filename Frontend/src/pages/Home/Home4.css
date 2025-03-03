@@ -1,0 +1,74 @@
+
+/* Ensure carousel container is fully responsive */
+.carousel-container {
+    width: 100%;
+    max-width: 100%;
+}
+
+/* Responsive carousel images */
+.carousel-page img {
+    width: 100%;
+    height: 60vh; /* Adjust height for desktop */
+    object-fit: cover;
+}
+
+/* Carousel text (default for larger screens) */
+.carousel-caption {
+    position: absolute;
+    bottom: 10%;
+    left: 10%;
+    width: 80%;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 1rem;
+    border-radius: 10px;
+}
+
+/* Responsive text */
+.carousel-title {
+    font-size: 2rem; /* Default for desktop */
+    font-weight: bold;
+    color: #fff;
+}
+
+.carousel-text {
+    font-size: 1.2rem;
+    color: #ddd;
+}
+
+/* Mobile Styles */
+@media (max-width: 768px) {
+    .carousel-page img {
+        height: 50vh; /* Reduce height on smaller screens */
+    }
+
+    .carousel-caption {
+        bottom: 5%;
+        left: 5%;
+        width: 90%;
+        padding: 0.8rem;
+    }
+
+    .carousel-title {
+        font-size: 1.5rem;
+    }
+
+    .carousel-text {
+        font-size: 1rem;
+    }
+}
+
+/* Extra Small Devices */
+@media (max-width: 480px) {
+    .carousel-page img {
+        height: 40vh; /* Smaller images for mobile */
+    }
+
+    .carousel-title {
+        font-size: 1.3rem;
+    }
+
+    .carousel-text {
+        font-size: 0.9rem;
+    }
+}

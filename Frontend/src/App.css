@@ -1,0 +1,70 @@
+/* Define a global font variable */
+:root {
+    --font-primary: 'Excon', sans-serif;
+  }
+  
+  /* Apply Global Font Reset */
+  * {
+    font-family: var(--font-primary) !important;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Apply Font to Body */
+  body {
+    font-family: var(--font-primary) !important;
+    line-height: 1.6;
+  }
+  
+  /* Explicitly Apply to Common Text Elements */
+  h1, h2, h3, h4, h5, h6, p, span, div, a, button, input, textarea {
+    font-family: var(--font-primary) !important;
+  }
+
+  /* ✅ For WebKit Browsers (Chrome, Safari, Edge) */
+::-webkit-scrollbar {
+  width: 6px;  /* Thin scrollbar */
+}
+
+::-webkit-scrollbar-track {
+  background: #f68f22;
+  border-radius: 10px; /* Rounded edges */
+}
+
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(45deg, #e36810, #ff914d);
+  border-radius: 10px; /* Rounded scrollbar thumb */
+  transition: background 0.3s ease-in-out;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(45deg, #f95d03, #ff7b26);
+}
+
+/* ✅ Hide scrollbar arrows (buttons) */
+::-webkit-scrollbar-button {
+  display: none;
+}
+
+/* ✅ For Firefox */
+* {
+  scrollbar-width: thin; /* Makes it thin */
+  scrollbar-color: #f2ad7c #f1f1f1; /* Thumb and track color */
+}
+
+/* ✅ Custom Text Selection Color */
+::selection {
+  background: #e06f1f; /* Your theme color */
+  color: #ffffff; /* Text color for contrast */
+}
+
+/* ✅ For Firefox */
+::-moz-selection {
+  background: #e06f1f;
+  color: #ffffff;
+}
+
+
+
+  
