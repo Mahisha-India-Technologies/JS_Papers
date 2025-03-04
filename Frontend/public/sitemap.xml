@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+    <!-- Home Page (Most Important) -->
+    <url>
+        <loc>https://www.jaisakthipapers.com/</loc>
+        <priority>1.0</priority>
+        <lastmod>2024-03-04</lastmod>
+        <changefreq>daily</changefreq>
+    </url>
+
+    <!-- Buy Online (Amazon Product Selling Link - No Need to Index) -->
+    <url>
+        <loc>https://www.amazon.in/s?me=YOUR_AMAZON_SELLER_ID</loc>
+        <priority>0.5</priority>
+        <changefreq>monthly</changefreq>
+    </url>
+
+    <!-- Product Categories Page (Contains All Products) -->
+    <url>
+        <loc>https://www.jaisakthipapers.com/about</loc>
+        <priority>0.9</priority>
+        <lastmod>2024-03-04</lastmod>
+        <changefreq>weekly</changefreq>
+    </url>
+
+    <!-- About Us Page -->
+    <url>
+        <loc>https://www.jaisakthipapers.com/product-categories</loc>
+        <priority>0.8</priority>
+        <lastmod>2024-03-04</lastmod>
+        <changefreq>monthly</changefreq>
+    </url>
+
+    <!-- Sustainability Page -->
+    <url>
+        <loc>https://www.jaisakthipapers.com/sustainability-goals</loc>
+        <priority>0.8</priority>
+        <changefreq>monthly</changefreq>
+    </url>
+
+    <!-- Manufacturing Process Page -->
+    <url>
+        <loc>https://www.jaisakthipapers.com/environmental-initiatives</loc>
+        <priority>0.8</priority>
+        <changefreq>monthly</changefreq>
+    </url>
+
+    <!-- Quality Standards Page -->
+    <url>
+        <loc>https://www.jaisakthipapers.com/locations</loc>
+        <priority>0.8</priority>
+        <changefreq>monthly</changefreq>
+    </url>
+
+</urlset>
