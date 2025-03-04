@@ -10,6 +10,7 @@ import Categories7 from "./Categories7";
 import Categories8 from "./Categories8";
 import Categories10 from "./Categories10";
 import { FaArrowUp } from "react-icons/fa";
+import SEO from "../../../assets/SEO/SEO";
 
 function Categories() {
 
@@ -37,6 +38,13 @@ function Categories() {
 
     return (
         <div className="categories-page">
+          <SEO 
+        title="Product Categories | Jaisakthi Papers - Recycled Paper Boards"
+        description="Discover our range of high-quality recycled paper boards, including Kraft Board, Chip Board, and Duplex Sheets."
+        keywords="Product Categories, Kraft Board, Chip Board, Duplex Sheets, Recycled Paper, Jaisakthi Papers"
+        image="../../../assets/images/SEO3.jpeg"
+        url="https://www.jaisakthipapers.com/product-categories"
+      />
             <div className="categories1">
                 <Categories1 />
             </div>

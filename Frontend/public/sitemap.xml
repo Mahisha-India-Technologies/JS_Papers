@@ -10,11 +10,11 @@
     </url>
 
     <!-- Buy Online (Amazon Product Selling Link - No Need to Index) -->
-    <url>
+    <!-- <url>
         <loc>https://www.amazon.in/s?me=YOUR_AMAZON_SELLER_ID</loc>
         <priority>0.5</priority>
         <changefreq>monthly</changefreq>
-    </url>
+    </url> -->
 
     <!-- Product Categories Page (Contains All Products) -->
     <url>

@@ -8,6 +8,7 @@ import Goals8 from "../Sustain/Goals/Goals8";
 import { FaArrowUp } from 'react-icons/fa';
 import About2 from "./About2";
 import About3 from "./About3";
+import SEO from "../../assets/SEO/SEO";
 
 function About() {
 
@@ -36,6 +37,13 @@ function About() {
 
     return(
         <div className="about-page">
+          <SEO 
+        title="About Us | Jaisakthi Papers - Eco-Friendly Paper Manufacturer"
+        description="Learn more about Jaisakthi Papers, our mission, and our commitment to sustainability in the recycled paper product industry."
+        keywords="About Jaisakthi Papers, Recycled Paper Industry, Eco-Friendly Manufacturer, Sustainable Paper"
+        image="../../assets/images/SEO2.jpeg"
+        url="https://www.jaisakthipapers.com/about"
+      />
             <div className="about1">
                 <About1 />
             </div>

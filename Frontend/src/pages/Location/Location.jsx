@@ -3,6 +3,7 @@ import Location1 from "./Location1";
 import Footer from "../../components/Footer/Footer";
 import { FaArrowUp } from 'react-icons/fa';
 import Location2 from "./Location2";
+import SEO from "../../assets/SEO/SEO";
 
 function Location() {
 
@@ -31,6 +32,13 @@ function Location() {
 
     return(
         <div className="location-page">
+          <SEO
+        title="Our Location | Jaisakthi Papers - Manufacturing Plant"
+        description="Find the location of Jaisakthi Papers, our eco-friendly paper board manufacturing facility."
+        keywords="Jaisakthi Papers Location, Paper Manufacturing Plant, Recycled Paper Industry"
+        image="../../assets/images/SEO4.jpeg"
+        url="https://www.jaisakthipapers.com/location"
+      />
             <div className="location1">
                 <Location1 />
             </div>

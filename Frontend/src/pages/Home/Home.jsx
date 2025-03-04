@@ -15,6 +15,7 @@ import Home7 from "./Home7";
 import './Home.css';
 import { FaArrowUp } from "react-icons/fa";
 import Home8 from "./Home8";
+import SEO from "../../assets/SEO/SEO";
 
 
 function Home() {
@@ -43,6 +44,13 @@ function Home() {
 
     return (
         <div className='home-page-layout'>
+            <SEO 
+        title="Jaisakthi Papers | Eco-Friendly Recycled Paper Boards"
+        description="Jaisakthi Papers manufactures high-quality, eco-friendly paper boards like Kraft Board, Chip Board, and Duplex Sheets."
+        keywords="Recycled Paper Products, Kraft Board, Chip Board, Duplex Sheets, Eco-Friendly, Jaisakthi Papers"
+        image="../../assets/images/SEO1.jpeg"
+        url="https://www.jaisakthipapers.com"
+      />
             <div className="home1">
                 <Home1 />
             </div>

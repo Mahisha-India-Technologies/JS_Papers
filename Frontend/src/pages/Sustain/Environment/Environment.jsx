@@ -12,6 +12,7 @@ import Environment9 from "./Environment9";
 import Environment10 from "./Environment10";
 import { FaArrowUp } from 'react-icons/fa';
 import './Environment.css';
+import SEO from "../../../assets/SEO/SEO";
 
 function Environment() {
 
@@ -39,6 +40,13 @@ function Environment() {
 
     return (
         <div className="environment-page">
+          <SEO
+        title="Environmental Initiatives | Jaisakthi Papers - Green Manufacturing"
+        description="Learn about Jaisakthi Papers' efforts in reducing environmental impact through green manufacturing processes."
+        keywords="Environmental Initiatives, Green Manufacturing, Eco-Friendly Paper, Jaisakthi Papers"
+        image="../../../assets/images/SEO6.jpeg"
+        url="https://www.jaisakthipapers.com/environmental-initiatives"
+      />
             <div className="environment1">
                 <Environment1 />
             </div>
