@@ -44,7 +44,7 @@ function Environment() {
         title="Environmental Initiatives | Jaisakthi Papers - Green Manufacturing"
         description="Learn about Jaisakthi Papers' efforts in reducing environmental impact through green manufacturing processes."
         keywords="Environmental Initiatives, Green Manufacturing, Eco-Friendly Paper, Jaisakthi Papers"
-        image="../../../assets/images/SEO6.jpeg"
+        image="/SEO6.jpeg"
         url="https://www.jaisakthipapers.com/environmental-initiatives"
       />
             <div className="environment1">

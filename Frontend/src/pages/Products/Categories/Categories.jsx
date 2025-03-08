@@ -42,7 +42,7 @@ function Categories() {
         title="Product Categories | Jaisakthi Papers - Recycled Paper Boards"
         description="Discover our range of high-quality recycled paper boards, including Kraft Board, Chip Board, and Duplex Sheets."
         keywords="Product Categories, Kraft Board, Chip Board, Duplex Sheets, Recycled Paper, Jaisakthi Papers"
-        image="../../../assets/images/SEO3.jpeg"
+        image="/SEO3.jpeg"
         url="https://www.jaisakthipapers.com/product-categories"
       />
             <div className="categories1">

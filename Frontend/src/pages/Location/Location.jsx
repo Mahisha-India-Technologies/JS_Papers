@@ -36,7 +36,7 @@ function Location() {
         title="Our Location | Jaisakthi Papers - Manufacturing Plant"
         description="Find the location of Jaisakthi Papers, our eco-friendly paper board manufacturing facility."
         keywords="Jaisakthi Papers Location, Paper Manufacturing Plant, Recycled Paper Industry"
-        image="../../assets/images/SEO4.jpeg"
+        image="/SEO4.jpeg"
         url="https://www.jaisakthipapers.com/location"
       />
             <div className="location1">

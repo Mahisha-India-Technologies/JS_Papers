@@ -42,7 +42,7 @@ function Goals() {
         title="Sustainability Goals | Jaisakthi Papers - Eco-Friendly Future"
         description="Jaisakthi Papers is committed to sustainability, ensuring eco-friendly manufacturing and reduced environmental impact."
         keywords="Sustainability Goals, Eco-Friendly Manufacturing, Green Paper Industry"
-        image="../../../assets/images/SEO5.jpeg"
+        image="/SEO5.jpeg"
         url="https://www.jaisakthipapers.com/sustainability-goals"
       />
             <div className="goals1">

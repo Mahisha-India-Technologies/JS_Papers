@@ -41,7 +41,7 @@ function About() {
         title="About Us | Jaisakthi Papers - Eco-Friendly Paper Manufacturer"
         description="Learn more about Jaisakthi Papers, our mission, and our commitment to sustainability in the recycled paper product industry."
         keywords="About Jaisakthi Papers, Recycled Paper Industry, Eco-Friendly Manufacturer, Sustainable Paper"
-        image="../../assets/images/SEO2.jpeg"
+        image="/SEO2.jpeg"
         url="https://www.jaisakthipapers.com/about"
       />
             <div className="about1">

@@ -48,7 +48,8 @@ function Home() {
         title="Jaisakthi Papers | Eco-Friendly Recycled Paper Boards"
         description="Jaisakthi Papers manufactures high-quality, eco-friendly paper boards like Kraft Board, Chip Board, and Duplex Sheets."
         keywords="Recycled Paper Products, Kraft Board, Chip Board, Duplex Sheets, Eco-Friendly, Jaisakthi Papers"
-        image="../../assets/images/SEO1.jpeg"
+        // image="../../assets/images/SEO1.jpeg"
+        image="/SEO1.jpeg"
         url="https://www.jaisakthipapers.com"
       />
             <div className="home1">
