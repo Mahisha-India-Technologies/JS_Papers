@@ -212,7 +212,7 @@ const Navbar = () => {
               alignItems: 'center',
               textDecoration: 'none',
               color: '#fff',
-              marginLeft: isSmallScreen ? '0px' : isMediumScreen ? '20px' : '80px',
+              marginLeft: isSmallScreen ? '0px' : isMediumScreen ? '20px' : '0px',
             }}
           >
             <img
