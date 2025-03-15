@@ -12,10 +12,8 @@ import Footer from '../components/Footer/Footer';
 import ScrollToTop from '../components/ScrollToTop/ScrollToTop';
 import About from '../pages/About/About';
 import Location from '../pages/Location/Location';
-import BuyOnline from '../pages/BuyOnline/BuyOnline';
 import Categories from '../pages/Products/Categories/Categories';
 import Quality from '../pages/Products/Quality/Quality';
-import './AppLayout.css';
 
 function AppLayout() {
 
@@ -39,7 +37,6 @@ function AppLayout() {
           <Route path='/eco-friendly-products' element={<EcoFriendly />} />
           <Route path='/product-quality' element={<Quality />} />
           <Route path='/about' element={<About />} />
-          <Route path='/buy-online' element={<BuyOnline />} />
           <Route path='/locations' element={<Location />} />
           <Route path='/footer' element={<Footer />} />
         </Routes>
