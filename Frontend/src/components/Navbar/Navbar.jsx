@@ -202,13 +202,13 @@ const Navbar = () => {
   const additionalNavItems = [
     { text: "About", link: "/about" },
     { text: "Contact", onClick: handleOpenModal },
-    {
-      text: "Buy Online",
-      link: "https://www.amazon.com/s?k=YOUR_PRODUCT_LINK", // Replace with your actual Amazon link
-      target: "_blank",
-      external: true,
-      rel: "noopener noreferrer",
-    },
+    // {
+    //   text: "Buy Online",
+    //   link: "https://www.amazon.com/s?k=YOUR_PRODUCT_LINK",
+    //   target: "_blank",
+    //   external: true,
+    //   rel: "noopener noreferrer",
+    // },
     { text: "Locations", link: "/locations" },
   ];
 
@@ -880,9 +880,9 @@ const Navbar = () => {
               </Link>
             </ListItem>
 
-            <ListItem button>
+            {/* <ListItem button>
               <a
-                href="https://www.amazon.com/s?k=YOUR_PRODUCT_LINK" // Replace with your actual Amazon sales page link
+                href="https://www.amazon.com/s?k=YOUR_PRODUCT_LINK"
                 target="_blank"
                 rel="noopener noreferrer"
                 onClick={toggleDrawer(false)}
@@ -906,7 +906,7 @@ const Navbar = () => {
                   sx={{ paddingLeft: "5px" }}
                 />
               </a>
-            </ListItem>
+            </ListItem> */}
 
             <ListItem button>
               <Link
